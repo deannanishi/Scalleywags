@@ -1,0 +1,131 @@
+body{
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+	background size: 200px;
+	background-color: #002f5f;	
+	font-family: helvetica, cambria, arial, sans-serif;
+}
+p {
+	color: black;
+	font-size: 18px;
+	font-family: trebuchetms, calibri, helvetica, sans-serif;
+}
+header {
+	background-image: url("../images/header-bg.png");
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	padding-left: 41px;
+	padding-bottom: 49px;
+	position: relative;
+}
+h1 {
+	color: #800a00;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	font-size: 96px;
+	text-align: left;
+}
+h2 { 
+	color: black;
+	font-size: 32px;
+	text-align: left;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	padding-top: 10px;
+}
+h3 {
+	font-size: 24;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	padding-bottom: 9px;
+	padding-top: 10px;
+}
+nav {
+	color: white;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	font-size: 32px;
+}
+nav > ul {	
+	list-style: none;	
+	background-color: #800a00;
+	background-image: linear-gradient(#800a00, #4d0600);
+	padding-bottom: 76px;
+}
+nav > ul> li {
+	display: inline;
+	list-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;	
+	float: left;
+}
+nav > ul > li > a {
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding-right: 71.593px;
+	padding-left: 71.593px;
+}
+section {
+	clear: both;
+	background-image: url("../images/section-bg.png");
+	background-repeat: repeat-y;
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 90px;
+}
+h3 {
+	color: black;
+	font-size: 40px;
+}
+h4 > a {
+	color: #3b7bab;
+	padding: none;
+	margin: none;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	font-size: 24px;
+}
+p {
+	font-style: 'trebuchet ms', 'calibri', 'helvetica', sans-serif; 
+	line-height: 1.6;
+	font-size: 18px
+}
+footer {
+	display: block;
+	background-color: #800a00; 
+	background-image: url("../images/footer-bg.png");
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: auto;
+	overflow: hidden;
+}
+footer > ul {	
+	clear: both;
+	font-family: 'lobster', 'signpaper', 'lucida blackletter', 'trattello', cursive;
+	font-size: 18px;
+}
+footer > ul > li {
+	display: inline;
+	list-style: none;
+	padding-bottom: 20px;
+	padding-top: 15px;	
+	float: left;
+}
+footer > ul > li > a {
+	clear: both;
+	margin: 20px;
+	color: white;
+	text-decoration: none;	
+}
+.wrapper {
+	width: 980px;
+	margin: auto;
+	background-color: #fee4a7;
+	text-orientation: center;
+	margin-bottom: 85px;
+}
+.logo {
+	float: left;
+	position: absolute;
+	top: 0;
+	right: -140px;
+}
+
